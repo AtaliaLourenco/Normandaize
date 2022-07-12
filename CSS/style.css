@@ -63,6 +63,11 @@
   font-size: 1rem;
 }
 
+.btn-warning:hover {
+  background-color: #FFF7CC;
+   !important
+}
+
 .btn-warning-my {
   background: #FFBF00;
   color: black;
@@ -246,9 +251,6 @@
   height: 400px;
 }
 
-body {
-  height: 3000px;
-}
 
 .m-6 {
   margin: 5rem !important;
@@ -467,4 +469,41 @@ ul {
 
 .ult {
   text-align: center;
+}
+
+.fino {
+  font-weight: 600;
+}
+
+.table-warning-my {
+  border: solid 5px #FFBF00;
+  font-weight: 600;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.titu-tabe {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #FFBF00;
+  font-size: 1.3rem;
+
+}
+
+.btn-warning-2 {
+  background: #FFFFFF;
+  border: 2px solid #FFBF00;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
+
+}
+
+.bt-ticke {
+  font-family: 'Raleway', sans-serif;
+  color: #FFBF00;
+}
+
+.bt-ticke:hover {
+  color: #000;
+}
+
+.table-hover>tbody>tr:hover>* {
+  background-color: #FFF7CC;
 }
