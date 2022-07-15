@@ -180,7 +180,7 @@
 }
 
 .form-control {
-  border: solid 4px #FFBF00;
+  border: solid 2px #FFBF00;
   font-family: 'Quicksand', sans-serif;
   font-weight: 500;
 }
@@ -296,7 +296,7 @@
   border-radius: 10px;
   content: "";
   display: inline-block;
-  height: 5px;
+  height: 3px;
   position: relative;
   vertical-align: middle;
   width: 100%;
@@ -506,4 +506,81 @@ ul {
 
 .table-hover>tbody>tr:hover>* {
   background-color: #FFF7CC;
+}
+
+.text-bg-warning1 {
+  background: #FFFFFF;
+  border: 2px solid #FFBF00;
+  color: #FFBF00;
+  font-family: 'Raleway', sans-serif;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
+  margin: auto;
+}
+
+.bg-2 {
+  background: #F2F2F2;
+  font-family: 'Quicksand', sans-serif;
+  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.25);
+}
+
+.bg-per {
+  background: rgba(255, 247, 204, 0.5);
+  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.25);
+}
+
+.lista-plano li {
+  border-bottom: 2px solid #FFBF00;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  padding: 0.9rem;
+
+}
+
+.foit {
+  font-weight: 600;
+
+}
+
+.form-select {
+  background: #FFFFFF;
+  border: 2px solid #FFBF00;
+  font-weight: 600;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+}
+
+.form-select:focus {
+  box-shadow: 0 0 0 0.25rem #FFBF00;
+  border-color: #fff7cc;
+}
+
+.bec-for {
+  background: rgba(217, 217, 217, 0.3);
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+}
+
+.valor {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.font-contacto-titu {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+}
+
+.font-cont-sub {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  list-style: none;
+}
+
+.ativo {
+  color: #fff7cc;
+  text-decoration: overline;
 }

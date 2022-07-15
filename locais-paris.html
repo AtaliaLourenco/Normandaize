@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-pt">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
@@ -41,7 +41,7 @@
               <label for="loginSenha" class="form-label modal-titu-label">Senha</label>
               <input type="password" class="form-control" id="loginSenha" placeholder="Senha">
             </div>
-            <button type="submit" class="btn btn-warning mt-1 mb-1 tama" id="btn-personalizado">Entrar na Conta</button>
+            <button type="submit" class="btn btn-warning mt-1 mb-1 tama">Entrar na Conta</button>
             <div id="emailHelp" class="form-text modal-titu-label">Esqueceu a senha? <a class="tira-sub" href="/index.html"> <strong> Clique aqui.</strong></a></div>
           </form>
         </div>
@@ -62,8 +62,8 @@
         <div class="modal-body">
           <form>
             <div class="mb-3">
-              <label for="InscrevaEmal" class="form-label modal-titu-label">Nome</label>
-              <input type="email" class="form-control" id="InscrevaEmal" placeholder="Insira seu Nome">
+              <label for="InscrevaNome" class="form-label modal-titu-label">Nome</label>
+              <input type="email" class="form-control" id="InscrevaNome" placeholder="Insira seu Nome">
             </div>
             <div class="mb-3">
               <label for="InscrevaEmal" class="form-label modal-titu-label">Email</label>
@@ -81,8 +81,7 @@
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
               <label class="form-check-label modal-titu-label" for="exampleCheck1">Eu concordo com a <strong> <a class="tira-sub" href="#"> Política de Privacidade</a></strong> e <strong><a class="tira-sub" href="#">Cookies</a></strong> e <strong><a class="tira-sub" href="#">Termos e Condições.</a></strong></label>
             </div>
-            <button type="submit" class="btn btn-warning mt-1 mb-1 tama" id="btn-personalizado">REGISTRAR</button>
-
+            <button type="submit" class="btn btn-warning mt-1 mb-1 tama">REGISTRAR</button>
           </form>
         </div>
       </div>
@@ -103,7 +102,7 @@
       </div>
       <nav class="navbar">
         <form class="container-fluid justify-content-start">
-          <button class="btn btn-warning me-2" data-bs-toggle="modal" data-bs-target="#modalInscreva" type="button">INSCREVA-SE</button>
+          <button class="btn btn-warning me-2" data-bs-toggle="modal" data-bs-target="#modalInscreva" type="button">REGISTRAR-SE</button>
         </form>
     </div>
   </nav>
@@ -119,28 +118,28 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle me-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle me-3 ativo" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Locais
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="locais-california.html">Califórnia</a></li>
               <li><a class="dropdown-item" href="locais-paris.html">Paris</a></li>
               <li><a class="dropdown-item" href="locais-dublin.html">Dublin</a></li>
+              <li><a class="dropdown-item" href="locais-california.html">Califórnia</a>
             </ul>
           </li>
           <li class="nav-item me-3">
-            <a class="nav-link" href="#">Planos</a>
+            <a class="nav-link" href="planos.html">Planos</a>
           </li>
           <li class="nav-item me-4">
-            <a class="nav-link" href="#">Contacto</a>
+            <a class="nav-link" href="contacto.html">Contacto</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle me-3 " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               <img class="tamanho" src="./img/PT-48.png" alt="PT">
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="/index.html"> <img class="tamanho3" src="./img/IN-48.png" alt="Ingles"></a></li>
-              <li><a class="dropdown-item" href="/index.html"> <img class="tamanho3" src="./img/ES-48.png" alt="Espanhol"></a></li>
+              <li><a class="dropdown-item" href="/indexEN.html"> <img class="tamanho3" src="./img/IN-48.png" alt="Ingles"></a></li>
+              <li><a class="dropdown-item" href="/indexES.html"> <img class="tamanho3" src="./img/ES-48.png" alt="Espanhol"></a></li>
             </ul>
           </li>
         </ul>
@@ -179,9 +178,10 @@
         <img class="img-fluid mt-4" src="./img/PARIS/9.jpg" alt="Paris">
       </div>
     </div>
+    <div> <a href="inscreva.html" class="btn btn-warning col-6 mt-4 px-5">INSCREVA-SE</a></div>
   </section>
 
-  <section class="py-5  text-center p-4 container">
+  <section class="text-center p-4 container">
     <div class="">
       <span class="h6 font-familia1 d-block">DESCUBRA O QUE ACONTECE NA CIDADE</span>
       <h2 class="display-4 font-familia mb-4 pb-2">Próximos Eventos</h2>
@@ -232,28 +232,22 @@
           <td>Estação de Metro Anvers</td>
           <td><button class="btn btn-warning btn-warning-2 "> <a class="tira-sub bt-ticke" href="https://www.tripadvisor.pt/AttractionProductReview-g187147-d17161771-See_30_Plus_Top_Paris_Sights_with_a_Fun_Guide_Walking_Metro_Tour-Paris_Ile_de_Fran.html"> Comprar Ticket</a></button></td>
         </tr>
-
       </tbody>
     </table>
-
-
     </div>
   </section>
 
   <div id="img-footer">
     <Footer class="container">
       <div class="row ms-lg-4 ">
-
         <div class="col-lg-4 col-5 ">
           <ul>
             <li class="sub-font h5 pt-4 ">Atalhos</li>
             <li class="font-footer lead "> <a class="font-footer ml-3" href="/index.html"> Inscreva-se </a></li>
-            <li class="font-footer lead"> <a class="font-footer" href="/index.html">Contacto </a></li>
-            <li class="font-footer lead"> <a class="font-footer" href="/index.html">Planos </a></li>
+            <li class="font-footer lead"> <a class="font-footer" href="contacto.html">Contacto </a></li>
+            <li class="font-footer lead"> <a class="font-footer" href="planos.html">Planos </a></li>
           </ul>
         </div>
-
-
         <div class="col-lg-4 col-5">
           <ul>
             <li class="sub-font h5 pt-4 ">Locais</li>
@@ -265,8 +259,8 @@
         <div class="col-lg-4 col-5">
           <ul>
             <li class="sub-font h5 pt-4">Contacto</li>
-            <li class="font-footer lead"><a class="font-footer lead" href="mailto:thaliacardoso55@gmail.com?subject=Questions" title="">Email</a></li>
-            <li class="font-footer lead"><a class="font-footer lead" href="tel:+351915999999">Telefone</a></li>
+            <li class="font-footer d-inline"><a class="font-footer lead" href="mailto:thaliacardoso55@gmail.com?subject=Dúvidas" title=""> <img class="tamanho2" src="./img/o-email.png" alt="Email"></a></li>
+            <li class="font-footer d-inline"><a class="font-footer lead" href="tel:+351915999999"> <img class="tamanho2" src="./img/botao-de-simbolo-de-telefone.png" alt="Telefone"></a></li>
           </ul>
         </div>
         <div class="col-lg-4 col-5">
@@ -288,6 +282,7 @@
 
   <script src=" ./JS/bootstrap.js">
   </script>
+  <script src="./JS/pessoal.js"></script>
   <script src="./JS/bootstrap.bundle.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
