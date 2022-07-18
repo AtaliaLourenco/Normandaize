@@ -584,3 +584,31 @@ ul {
   color: #fff7cc;
   text-decoration: overline;
 }
+
+.inscri-bg {
+  background: rgba(217, 217, 217, 0.3);
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+}
+
+.ttt {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+}
+
+.escolhi {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+}
+
+@media (max-width: 768px) {
+  .orde-mi {
+    order: -1 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .ma-mi {
+    margin-left: 0.25rem !important;
+  }
+}

@@ -148,13 +148,190 @@
     </div>
   </nav>
 
-  <section class="py-5 p-4 container ">
+  <section class="p-4 container mb-5">
     <div class="text-center">
       <span class="h6 font-familia1 d-block">PROGRAME A VIAGEM DO SEU SONHO</span>
       <h2 class="display-4 font-familia mb-4 pb-2">INSCREVA-SE</h2>
     </div>
-    <div class="row">
+    <section class="row">
+      <form class="row col-md-6 inscri-bg p-4 shadow rounded mb-5 ma-mi">
+        <div class="col-md-6 mb-2">
+          <label for="inputNome" class="form-label">Nome</label>
+          <input type="text" class="form-control" id="inputNome" placeholder="Primeiro Nome">
+        </div>
+        <div class="col-md-6">
+          <label for="inputApelido" class="form-label">Apelido</label>
+          <input type="text" class="form-control" id="inputApelido" placeholder="Último Nome">
+        </div>
+        <div class="col-md-6 mb-2 ">
+          <label for="inputEmail" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail" placeholder="nome@email.com">
+        </div>
+        <div class="col-md-6">
+          <label for="inputNIF" class="form-label">NIF</label>
+          <input type="number" class="form-control" id="inputNIF" placeholder="000000000">
+        </div>
+        <div class="col-12 mb-2">
+          <label for="inputAddress" class="form-label">Morada</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="Morada Completa">
+        </div>
+        <div class="col-md-5">
+          <label for="inputCity" class="form-label">Cidade</label>
+          <input type="text" class="form-control" id="inputCity" placeholder="Cidade">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">Concelho</label>
+          <select id="inputState" class="form-select">
+            <option selected>Aveiro</option>
+            <option>Beja</option>
+            <option>Braga</option>
+            <option>Bragança</option>
+            <option>Castelo Branco </option>
+            <option>Coimbra</option>
+            <option>Évora</option>
+            <option>Faro</option>
+            <option>Guarda</option>
+            <option>Leiria</option>
+            <option>Lisboa</option>
+            <option>Portalegre</option>
+            <option>Porto</option>
+            <option>Santarém</option>
+            <option>Setúbal</option>
+            <option>Viana do Castelo</option>
+            <option>Vila Real</option>
+            <option>Viseu</option>
+            <option>Açores</option>
+            <option>Madeira</option>
+          </select>
+        </div>
+        <div class="col-md-3">
+          <label for="inputZip" class="form-label">ZIP</label>
+          <input type="number" class="form-control" id="inputZip" placeholder="0000-000">
+        </div>
+        <div class=" mt-4 mb-2">
+          <h6 class="ttt"> FORMA DE PAGAMENTO</h6>
+        </div>
+        <nav class="nav btn-group" id="formaPagamento" role="tablist">
+          <button type="button" class="btn btn-warning" id="cartao-tab" data-toggle="tab" href="#cartao" role="tab" aria-controls="cartao" aria-selected="false">CARTÃO DE CRÉDITO/DÉBITO</button>
+          <button type="button" class="btn btn-warning" id="multibanco-tab" data-toggle="tab" href="#multibanco" role="tab" aria-controls="multibanco" aria-selected="false">MULTIBANCO</button>
+          <button type="button" class="btn btn-warning" id="MBWAY-tab" data-toggle="tab" href="#MBWAY" role="tab" aria-controls="MBWAY" aria-selected="false">MB WAY</button>
+        </nav>
+        <div class="tab-content" id="formaPagamentoConteudo">
+          <div class="tab-pane fade" id="cartao" role="tabpanel" aria-labelledby="cartao-tab">
+            <div class="row">
+              <div class="col-12 mt-4">
+                <label for="inputNuCartao" class="form-label">Número do Cartão</label>
+                <input type="number" class="form-control" placeholder="0000 0000 0000 0000" id="inputNomeCartao">
+              </div>
+              <div class="col-md-4 mt-4">
+                <label for="inputMes" class="form-label">Mês de Expiração</label>
+                <select id="inputMes" class="form-select">
+                  <option selected>Janeiro</option>
+                  <option>Fevereiro</option>
+                  <option>Março</option>
+                  <option>Abril</option>
+                  <option>Maio</option>
+                  <option>Junho</option>
+                  <option>Julho</option>
+                  <option>Agosto</option>
+                  <option>Setembro</option>
+                  <option>Outubro</option>
+                  <option>Novembro</option>
+                  <option>Dezembro</option>
+                </select>
+              </div>
+              <div class="col-md-4 mt-4">
+                <label for="inputAno" class="form-label">Ano de Expiração</label>
+                <select id="inputAno" class="form-select">
+                  <option selected>2022</option>
+                  <option>2023</option>
+                  <option>2024</option>
+                  <option>2025</option>
+                  <option>2026</option>
+                  <option>2027</option>
+                  <option>2028</option>
+                  <option>2029</option>
+                  <option>2030</option>
+                  <option>2031</option>
+                  <option>2032</option>
+                  <option>2033</option>
+                  <option>2034</option>
+                  <option>2035</option>
+                  <option>2036</option>
+                  <option>2037</option>
+                  <option>2038</option>
+                  <option>2039</option>
+                  <option>2040</option>
+                  <option>2041</option>
+                  <option>2042</option>
+                  <option>2043</option>
+                </select>
+              </div>
+              <div class="col-md-4 mt-4">
+                <label for="inputNome" class="form-label">CVV</label>
+                <input type="number" class="form-control" placeholder="000">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade mt-4" id="multibanco" role="tabpanel" aria-labelledby="multibanco-tab">Obrigado por sua compra. Indique seu email ou número do telemóvel para o qual será enviado a referência Multibanco para realizar o pagamento.
+            <div class="row">
+              <div class="col-12  mt-4 ">
+                <label for="inputEmailM" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmailM" placeholder="nome@email.com">
+              </div>
+              <div class="col-12 mt-4">
+                <label for="inputNuTele" class="form-label">Número do telemóvel.</label>
+                <input type="number" class="form-control" placeholder="+351 000000000">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="MBWAY" role="tabpanel" aria-labelledby="MBWAY-tab">
+            <p class="mt-4 ">O método de pagamento selecionado enviará um SMS de pagamento para você.</p>
+            <div class="row">
+              <div class="col-md-3 ">
+                <label for="inputNuTele" class="form-label">Código do país</label>
+                <input type="number" class="form-control" placeholder="+351">
+              </div>
+              <div class="col-md-9">
+                <label for="inputNuTele" class="form-label">Indique o seu número do telemóvel.</label>
+                <input type="number" class="form-control" placeholder="000000000">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-check mt-4 mx-4">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckTermos">
+          <label class="form-check-label" for="flexCheckTermos">
+            Concordo com os <a class="tira-sub" href="#"> Termos e Condições</a>.
+          </label>
+        </div>
+        <button type="submit" class="btn btn-warning   mt-4 col-8 mx-auto">
+          CONTRATAR PLANO
+        </button>
+      </form>
 
+      <div class="col-md-5 mx-auto orde-mi mb-5">
+        <div class="bg-per border border-warning border-2 rounded mx-5  p-4 bg-2">
+          <div class="col pb-2 escolhi h4 text-center">PLANO ESCOLHIDO</div>
+          <h2 class="my-2 foit text-center">Vip <span class="badge text-bg-warning1">NOVO</span></h2>
+          <ul class="list-unstyled lista-plano text-center">
+            <li> <img src="./img/planos1.svg" alt="Basic"> 60 dias de viagem.</li>
+            <li> <img src="./img/plano2.svg" alt="Basic"> 6 destinos diferentes.</li>
+            <li> <img src="./img/plano3.svg" alt="Basic"> Tudo pago pela empresa.</li>
+            <li> <img src="./img/plano4.svg" alt="Basic"> Ingressos para atividades.</li>
+          </ul>
+          <div>
+            <select class="form-select mt-3" aria-label="Default select example">
+              <option selected>Selecione a cidade</option>
+              <option value="1">Paris</option>
+              <option value="2">Dublin</option>
+              <option value="3">Califórnia</option>
+            </select>
+          </div>
+          <div class="text-center mt-4">
+            <span class="valor h4">VALOR: 3.000€</span>
+          </div>
+    </section>
   </section>
 
 
