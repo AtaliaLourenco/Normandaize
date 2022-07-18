@@ -612,3 +612,9 @@ ul {
     margin-left: 0.25rem !important;
   }
 }
+
+@media (max-width: 1400px) {
+  .ma-b {
+    margin-bottom: 0.5rem !important;
+  }
+}
