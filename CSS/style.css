@@ -618,3 +618,13 @@ ul {
     margin-bottom: 0.5rem !important;
   }
 }
+
+@media (max-width: 637px) {
+  #img-fundo {
+    background-position: center;
+    background-image: url(../img/fundo-mobile.png);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+  }
+}
