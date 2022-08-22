@@ -9,6 +9,9 @@ Let's travel? -Yes, we will. Adventure is worthwhile!<br> <br>
 Personalized Website about Travel using Bootstrap framework. <br> 
 (PS: All information on this site is fictitious, and the site is designed to show knowledge and personal portfolio).
 
+## Design 
+![Web 1](https://github.com/AtaliaLourenco/TOPSSeriesdaNetflix/blob/main/IMG-EDIT/Normandaize.png)
+
 
 ## Layout Web
 ![Web 1](https://github.com/AtaliaLourenco/Normandaize/blob/main/DESIGN/Home.png)
@@ -18,6 +21,13 @@ Personalized Website about Travel using Bootstrap framework. <br>
 </p>
 
 # Used Technology
+
+## Design 
+- Figma
+- Adobe XD
+- Adobe Illustrator
+- Photopea
+
 ## Front End
 - HTML
 - CSS
